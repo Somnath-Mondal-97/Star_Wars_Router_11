@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.planet-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-button{
+    height: 60px;
+    width: 95%;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: white;
+    border: red solid 2px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.planet-button:hover{
+    border: white solid 2px;
+    color: red;
+}
+
+.btn-link{
+    width: 100%;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+
+.planet-details{
+    text-align: center;
+    font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.person-div {
+    margin-top: 20px;
+}
+
+.person-inner-div {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 10px;
+}
+
+.people-links{
+    text-decoration: none;
+    color: red;
+}
+
+.people-links:hover{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .person-inner-div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
